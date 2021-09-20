@@ -1,0 +1,7 @@
+C:\Users\maics\AppData\Roaming\npm\ng -> C:\Users\maics\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> @angular/cli@12.1.4 postinstall C:\Users\maics\AppData\Roaming\npm\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
++ @angular/cli@12.1.4
+added 235 packages from 180 contributors in 25.974s

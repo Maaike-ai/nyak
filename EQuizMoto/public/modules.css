@@ -1,0 +1,33 @@
+/* NAVBAR */
+.navbar{
+    padding: 5px 50px;
+}
+.logout{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+.logout:hover{
+    color: limegreen;
+    text-decoration: none;
+}
+.teachers{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    
+}
+.teachers:hover{
+    color: limegreen;
+    text-decoration: none;
+}
+.students{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    
+}
+.students:hover{
+    color: limegreen;
+    text-decoration: none;
+}

@@ -1,3 +1,6 @@
+
+
+
 var firebaseConfig = {
     apiKey: "AIzaSyAewrJPHSPMLZ1o6grFmKiQ76JmZY67vrM",
     authDomain: "e-quizmoto.firebaseapp.com",
@@ -40,6 +43,7 @@ $("#btn-logOut").click(function () {
 
 
 
+
 var studRef = firebase.database().ref('teacher');
 var new_html = '';
 window.onload = function () {
@@ -48,9 +52,11 @@ window.onload = function () {
 
 }
 
+
 function initApp() {
     document.getElementById('add_stud').addEventListener('click', addNewStud, false);
 }
+
 function addNewStud() {
     var firstname = document.getElementById('firstName').value;
     var lastname = document.getElementById('lastName').value;
@@ -62,6 +68,7 @@ function addNewStud() {
     var password = document.getElementById('lastName').value + document.getElementById('birthDay').value;
     var timeStamp = new Date().getTime();
     var studID = 'STUDENT_' + timeStamp;
+
 
     studRef.child(studID).set({
         firstname: firstname,
@@ -83,7 +90,10 @@ function addNewStud() {
     $('#birthDay').val('');
     $('#passWord').val('');
 
+
 }
+
+
 function refreshPage() {
     window.location.reload();
 }
@@ -112,6 +122,8 @@ function displayStudData() {
 function autoReloadPage() {
     reload
 }
+
+
 $(document).on('click', '.editStud', function () {
     var stud_id = $(this).attr('data-stud-id');
 

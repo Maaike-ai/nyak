@@ -52,7 +52,7 @@ window.onload = function () {
     displayStudData();
 
 }
-
+// ADD STUDENTS
 
 function initApp() {
     document.getElementById('add_stud').addEventListener('click', addNewStud, false);
@@ -101,7 +101,7 @@ function refreshPage() {
     window.location.reload();
 }
 
-
+// DISPLAY INPUT DATA
 function displayStudData() {
     studRef.on('child_added', function (studData) {
         console.log(studData.val())
@@ -125,7 +125,7 @@ function autoReloadPage() {
     reload
 }
 
-
+// FOR EDITING STUDENT DATA
 $(document).on('click', '.editStud', function () {
     var stud_id = $(this).attr('data-stud-id');
 
@@ -211,6 +211,8 @@ $(document).on('click', '.updateStudentData', function () {
     $('#password_' + stud_id).html(password);
 })
 
+
+// DELETING STUDENTS
 
 $(document).on('click', '.deleteStud', function () {
     var stud_id = $(this).attr('data-stud-id');

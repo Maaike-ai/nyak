@@ -44,12 +44,12 @@
 
 <body>
     <div class="text-lg-center text-md-center text-sm-center mt-4">
+        <img src="C:\Users\maics\Documents\GitHub\nyak\images\brain.png" class="img-fluid" alt="">
+    </div>
 
-    </div>
-    <div class="text-lg-center text-md-center text-sm-center mt-4 brain">
-        <img src="./images/brain.png" class="img-fluid" alt="">
-    </div>
-    <div class="wrapper" style="background-color: #fff;">
+
+
+    <div class="wrapper">
 
         <div class="loginBox">
             <form class="login" action="">
@@ -84,7 +84,7 @@
     <script>
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
-                window.location.href = "students.html";
+                window.location.href = "teacher.html";
             }
         });
     </script>

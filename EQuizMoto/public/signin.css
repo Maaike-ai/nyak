@@ -7,7 +7,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     width: 500px;
     height: auto;
-    margin-top: 80px;
+    margin-top: 0px;
     
 }
 .form-wrapper{
@@ -22,7 +22,7 @@
 
 .login{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
 
 }
 .form-wrapper{
@@ -33,6 +33,12 @@
     margin: 20px;
 }
 .brain{
-    height: 500px;
+    height: 300px;
     width: 500px;
+}
+.btn{
+    background-color: #3eb489 ;
+}
+.btn:hover{
+    background-color: #3eb489 ;
 }

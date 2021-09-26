@@ -20,7 +20,7 @@
 
     <!-- STYLE SHEET -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
 
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -37,18 +37,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-success text-white">
-        <a class="navbar-brand">E-Quiz Moto</a>
+    <nav class="navbar navbar-dark" style="background-color: #3eb489 ;">
+        <div class="container-fluid pe-5 ps-5">
+            <a class="navbar-brand" href="students.html">
+                <img src="C:\Users\maics\Documents\GitHub\nyak\images\brain.png" alt="" width="50" height="50">
+                EQuizMoto</a>
 
-        <div class="d-grid gap-2 d-md-inline-flex justify-content-md-end">
-            <a class="teachers" id="btn-Teachers" href="modules.html">Modules</a>
-            <a class="students" id="btn-Students" href="students.html">Teacher</a>
-            <a class="logout" id="btn-logOut" href="">Logout</a>
-        </div>
+            <div class="d-grid gap-2 d-md-inline-flex justify-content-md-end">
+                <a class="teachers" id="btn-Teachers" href="modules.html">Modules</a>
+                <a class="students" id="btn-Students" href="students.html">Teacher</a>
+                <a class="logout" id="btn-logOut" href="">Logout</a>
+            </div>
     </nav>
     <div class="container">
         <div class="head">
-            <h3>Teacher List</h3>
+            <h3 class="listHeading">Teacher List</h3>
             <div>
                 <a href="#addStudModal" class="btn btn-add btn-success float-end mb-2" data-bs-toggle="modal"
                     data-bs-target="#addStudModal">Add new Teacher</a>
@@ -60,7 +63,6 @@
                     <th scope="col">Firstname</th>
                     <th scope="col">Lastname</th>
                     <th scope="col">Section</th>
-                    <th scope="col">Student #</th>
                     <th scope="col">Email</th>
                     <th scope="col">Phone #</th>
                     <th scope="col">Actions</th>

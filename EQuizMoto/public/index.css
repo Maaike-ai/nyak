@@ -40,10 +40,7 @@
     height: 100%;
     padding: 2rem;
 }
-.head   h3{ 
-color: limegreen;
-font-size: 50px;
-}
+
 .form-control{
     margin-bottom: 20px;
 }
@@ -63,5 +60,16 @@ font-size: 50px;
 .action{
     text-align: center;
     justify-content: center;
+}
+
+.listHeading{
+    color: #3eb489 ;
+    font-size: 50px;
+}
+.btn{
+    background-color: #3eb489 ;
+}
+.btn:hover{
+    background-color: #3eb489 ;
 }
 

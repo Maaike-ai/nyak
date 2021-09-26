@@ -110,7 +110,6 @@ function displayStudData() {
         new_html += '<td id ="firstName_' + studData.val().stud_id + '">' + studData.val().firstname + '</td>';
         new_html += '<td id ="lastName_' + studData.val().stud_id + '">' + studData.val().lastname + '</td>';
         new_html += '<td id ="section_' + studData.val().stud_id + '">' + studData.val().section + '</td>';
-        new_html += '<td id ="studentNumber_' + studData.val().stud_id + '">' + studData.val().studentnumber + '</td>';
         new_html += '<td id ="email_' + studData.val().stud_id + '">' + studData.val().email + '</td>';
         new_html += '<td id ="phone_' + studData.val().stud_id + '">' + studData.val().phone + '</td>';
         new_html += '<td><a class="edit" data-toggle="modal"><button type="button" class="btn btn-success editStud"';

@@ -45,7 +45,7 @@ $("#btn-logOut").click(function () {
 
 
 
-var studRef = firebase.database().ref('students');
+var studRef = firebase.database().ref('teacher');
 var new_html = '';
 window.onload = function () {
     initApp();
